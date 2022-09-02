@@ -1,7 +1,57 @@
-h1 {
-    font-family: sans-serif;
+:root {
+    --primary-color:  #C0C0C0
 }
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    line-height: 2cm;
+    word-spacing: 2cm;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    line-height: 2cm;
+    word-spacing: 2cm;
+    text-align: right;
+    color: var(--primary-color);
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    line-height: 2cm;
+    word-spacing: 2cm;
+    text-align: center;
+    color: grey;
+}
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 2cm;
+    text-align: center;
+}
+.buttons {
+        font-family: monospace;
+        font-size: x-large;
+        word-spacing: 1cm;
+        text-align: center;
+    }
+    p {
+        font-family: monospace;
+        font-size: x-large;
+        text-align: center;
+    
+    }
+    button {
+        font-family: monospace;
+        font-size: x-large;
+        text-align: center;
+        padding: 10px;
+        background-color: aqua;
+    }
+    .icono {
+        width: 100px;
+    }
 .obra {
-    width: 1000px;
+    width: 500px;
 
 }
