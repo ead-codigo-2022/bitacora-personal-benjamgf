@@ -28,18 +28,25 @@ h4 {
     font-size: 50px;
     line-height: 2cm;
     text-align: center;
+    margin: 5px;
 }
 .container {
+    background-color: tan;
     padding: 50px;
 }
 .services__header {
-    padding: 1cm;
+    padding: 20pxcm;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    margin-bottom: 4rem;
+    gap: 20px;
 }
 .buttons {
         font-family: monospace;
         font-size: x-large;
         word-spacing: 1cm;
         text-align: center;
+        background-color: white;
     }
     p {
         font-family: monospace;
@@ -58,8 +65,8 @@ h4 {
         background-color: aqua;
     }
     .icono {
-        width: 100px;
+        width: 50px;
     }
 .obra {
-    width: 500px;
+    width: 300px;
 }
