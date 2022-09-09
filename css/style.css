@@ -29,6 +29,12 @@ h4 {
     line-height: 2cm;
     text-align: center;
 }
+.container {
+    padding: 50px;
+}
+.services__header {
+    padding: 1cm;
+}
 .buttons {
         font-family: monospace;
         font-size: x-large;
@@ -39,6 +45,8 @@ h4 {
         font-family: monospace;
         font-size: x-large;
         text-align: center;
+        padding: 100px;
+        margin: 10px;
     
     }
     button {
@@ -46,6 +54,7 @@ h4 {
         font-size: x-large;
         text-align: center;
         padding: 10px;
+        margin: 10px;
         background-color: aqua;
     }
     .icono {
@@ -53,5 +62,4 @@ h4 {
     }
 .obra {
     width: 500px;
-
 }
