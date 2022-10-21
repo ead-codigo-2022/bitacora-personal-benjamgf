@@ -55,7 +55,7 @@ h4 {
 }
 h2 {
     font-family: 'Exo 2', sans-serif;
-    color: rgb(231, 231, 231);
+    color: white;
     max-width: 1000px;
     margin-left: 170px;
     margin-right: 100px;
@@ -95,8 +95,14 @@ h2 {
     background: white;
 }
 .contenido {
-    background: rgb(56, 91, 119);
+    background: rgba(33, 53, 70, 0.753);
+}
+.contenido2 {
+    background: rgba(33, 70, 55, 0.753);
 }
 .card {
     width: 70%;
+    margin: 1cm;
+    margin-left: 60px;
+    margin-right: 100px;
 }
