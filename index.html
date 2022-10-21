@@ -12,14 +12,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700;800&display=swap" rel="stylesheet">
 </head>
 <nav>
-    <div class="nav">
+    <div class="head">
         <div class="icon">
             <img src="images/album.png" alt="ícono album" width="25px">
         </div>
+        <div class="titulo">
             <p>Bitácora [ÁLBUMES DEL AÑO]</p>
+        </div>
     </div>
 </nav>
 <body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -31,6 +34,9 @@
           <div class="carousel-item">
             <img src="images/gallery-aphextwin.jpg" class="d-block w-100" alt="aphex twin concert">
           </div>
+          <div class="carousel-item">
+            <img src="images/gallery-denzelcurry.jpg" class="d-block w-100" alt="denzel curry concert">
+          </div>
         </div>
       </div>
     </div>
@@ -38,108 +44,95 @@
         Selección de algunos proyectos sin ninguna relación entre sí, que según la crítica general son un 10/10
     </h1>
     <p class="parrafo">o al menos un 8/10</p>
-    <div class="row">
-        <div class="col-4">
-          <div id="list-example" class="list-group">
-            <a class="list-group-item list-group-item-action" href="#list-item-1">Visión Personal</a>
-            <a class="list-group-item list-group-item-action" href="#list-item-2">Crítica "Especializada"</a>
-            <a class="list-group-item list-group-item-action" href="#list-item-3">Crítica General</a>
+    <div id="navbar-example2" class="navbar bg-light px-3 mb-3">
+      <a class="navbar-brand" href="#"></a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading1">Visión Personal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading2">Critica "especializada”</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollspyHeading3">Critica General</a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <img src="images/artistas1.jpg" width="99%" alt="Fotos de conciertos de Bob Dylan, David Bowie, Aphex Twin, Bjork, Kendrick Lamar">
+    </div>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+      <h4 id="scrollspyHeading1">I. Visión Personal</h4>
+      <p class="pnav">Para mí la música es una terapia emocional para cada día, de hecho, puede ser considerada como una medicina emocional para el estrés, el sueño y otros factores sistemáticos. No indagaré en que define a la música ser lo que es para la salud, solo he de decir que a lo largo de mi vida me he dado cuenta del valor que tiene cada canción, obra o composición independiente de su género musical.
+        A lo que quiero llegar es que el contexto histórico, el material de producción, cada nota, cada silencio forman parte de una gran experiencia sonora, experiencia que tal vez lleva ahí muchos años pero que aún no llega a tu vida.</p>
+        <p class="pnav">Las siguientes recomendaciones son específicamente de álbumes como un proyecto por sí mismo, no de canciones por si solas, ya que vienen siendo creadas en conjunto de todo un tracklist con una visión artística que busca ser experimentada. La selección de álbumes es en relación a las críticas de usuarios en foros o redes sociales en conjunto con los artículos y revistas de “crítica especializada”.</p>
+        <div class="img">
+          <img src="images/artistas2.jpg" width="99%" alt="Fotos de conciertos de Joy Division, Arcade Fire, Kate Bush, Deftones, Denzel Curry">
+        </div>
+      <h4 id="scrollspyHeading2">Ii. Critica "especializada”</h4>
+      <p class="pnav">Las reseñas de artículos y revistas certificadas suelen ser muy parciales, por ende, en los foros y sitios en los que se habla de música no se toman muy en cuenta este tipo de argumentos. Por otra parte, la música es totalmente subjetiva por lo cual es totalmente valido tomar estas reseñas como recomendación para describir nuevos álbumes o artistas.</p>
+      <p class="pnav">Las puntuaciones que otorgan estos medios serán utilizadas como base para la siguiente selección de álbumes, sin embargo, esta calificación puede ir variando con tal de tener una apreciación general de las declaraciones que las personas hacen acerca de la calidad de la música que escuchan.</p>
+      <div class="img">
+        <img src="images/artistas3.jpg" width="99%" alt="Fotos de conciertos de Talking Heads, Mf Doom, Death Grips, Lcd Soundsystem, Weyes Blood, Misfits">
+      </div>
+      <h4 id="scrollspyHeading3">Iii. Critica General</h4>
+      <p class="pnav">La mayoría de los proyectos musicales son popularizados por medio de los oyentes quienes corren la voz, ya sean buenas o malas observaciones al respecto, hoy en día gracias al internet se hace descubrimiento de muchos artistas en auge gracias a que los hacen virales. Al haber una enorme comunidad de personas escuchando y recomendando música, y al mismo tiempo siendo la música tan subjetiva, las puntuaciones de los álbumes que encontramos en la web se puede considerar como general, pero nunca exacta, esto último depende de cada uno como individuo crítico, tal vez un proyecto que tenga una puntuación general de 10/10 sea un 0 para ti.</p>
+      <p class="pnav">Tomando en cuenta las puntuaciones de la comunidad y de la crítica “especializada” se otorgará una puntuación a cada álbum como referencia de lo que la mayoría del público dice al respecto.</p>
+    </div>
+  <div class="contenido">
+    <h2>Selección 2020-actualidad</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="images/424961-ants-from-up-there.webp" class="card-img-top" alt="Black Country, New Road: Ants From Up There (Caratula de álbum)">
+          <div class="card-body">
+            <h5 class="card-title">Black Country, New Road: Ants From Up There</h5>
+            <p class="card-text">4/2/2022</p>
+            <p class="card-text">Generos: Art Rock, Post-Rock, Chamber Pop</p>
+            <p class="card-text">9/10</p>
           </div>
         </div>
-        <div class="col-8">
-          <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-            <h4 id="list-item-1">I.</h4>
-            <p>Para mí la música es una terapia emocional para cada día, de hecho, puede ser considerada como una medicina emocional para el estrés, el sueño y otros factores sistemáticos. No indagaré en que define a la música ser lo que es para la salud, solo he de decir que a lo largo de mi vida me he dado cuenta del valor que tiene cada canción, obra o composición independiente de su género musical.
-              A lo que quiero llegar es que el contexto histórico, el material de producción, cada nota, cada silencio forman parte de una gran experiencia sonora, experiencia que tal vez lleva ahí muchos años pero que aún no llega a tu vida.
-              Las siguientes recomendaciones son específicamente de álbumes como un proyecto por sí mismo, no de canciones por si solas, ya que vienen siendo creadas en conjunto de todo un tracklist con una visión artística que busca ser experimentada. La selección de álbumes es en relación a las críticas de usuarios en foros o redes sociales en conjunto con los artículos y revistas de “crítica especializada”.
-              </p>
-            <h4 id="list-item-2">II.</h4>
-            <p>...</p>
-            <h4 id="list-item-3">III.</h4>
-            <p>...</p>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/274474-visions-of-bodies-being-burned.webp" class="card-img-top" alt="clipping.: Visions of Bodies Being Burned (Caratula de álbum)">
+          <div class="card-body">
+            <h5 class="card-title">clipping.: Visions of Bodies Being Burned</h5>
+            <p class="card-text">23/10/2020</p>
+            <p class="card-text">Generos: Horrorcore, Experimental Hip Hop, Industrial Hip Hop</p>
+            <p class="card-text">8/10</p>
           </div>
         </div>
       </div>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <div class="col">
+        <div class="card">
+          <img src="images/357961-sometimes-i-might-be-introvert.webp" class="card-img-top" alt="Little Simz: Sometimes I Might Be Introvert (Caratula de álbum)">
+          <div class="card-body">
+            <h5 class="card-title">Little Simz: Sometimes I Might Be Introvert</h5>
+            <p class="card-text">3/9/2021</p>
+            <p class="card-text">Generos: UK Hip Hop, Conscious Hip Hop, Neo-Soul, Chipmunk Soul</p>
+            <p class="card-text">8/10</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
 </body>
