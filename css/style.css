@@ -104,6 +104,12 @@ h2 {
 .contenido2 {
     background: rgba(33, 70, 55, 0.753);
 }
+.contenido3 {
+    background: rgba(70, 78, 50, 0.753);
+}
+.contenido4 {
+    background: rgba(68, 85, 87, 0.753);
+}
 .card {
     width: 70%;
     margin: 1cm;
